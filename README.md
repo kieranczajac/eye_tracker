@@ -26,6 +26,9 @@ A real-time eye tracking system that uses MediaPipe Face Mesh to detect facial l
 - scipy
 - (optional for tests) pytest
 
+#Limitations
+- EAR thresholds vary for different kinds of people i.e. people with smaller eyes or those who are squinting could be classified as having CLOSED eyes when they are in fact OPEN
+- The blink counter cannot capture many fast blinks in a row
 
 #Installation (Windows PowerShell)
 
